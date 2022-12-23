@@ -1,0 +1,71 @@
+#c1{
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(204, 7, 7);
+  margin: 40px;
+	background-color: rgba(250, 1, 1, 0.1);
+}
+
+
+body{
+  background: #fffefd;
+  background-image: -webkit-radial-gradient(cover, rgba(255, 255, 255, 0.849),#f3e3e3	);
+  background-image: -moz-radial-gradient(cover,#ffffff, #c6d7f1);
+  background-image: -o-radial-gradient(cover, #ffffff, #a4a8ae);
+  background-image: radial-gradient(cover, #ffffff, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: auto;
+	width: 150px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(255, 255, 255);
+	box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:13px;
+	text-decoration: none; 
+	color:rgb(153, 0, 0);
+	text-shadow: 0 1px #fff;
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:rgb(238, 238, 238);
+  	border: 1px solid rgb(255, 3, 3);
+} 
+
+.Navigation li:hover, a:hover {
+	 background: #e8e8e8;
+} 
+
